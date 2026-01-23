@@ -1,0 +1,68 @@
+[
+  {
+    "app_version": "0.4.3.dev3+gdd1b45963.d20251116",
+    "timestamp": "2025-11-17T09:58:05.255280",
+    "suite_id": null,
+    "job_type": "Linear Ramp QAOA",
+    "results": {
+      "approx_ratio": [
+        0.7493433333333334,
+        0.7665233333333332,
+        0.7695966666666666,
+        0.7623666666666666,
+        0.7491166666666664,
+        0.7336033333333332
+      ],
+      "random_approx_ratio": 0.49990133333333336,
+      "confidence_pass": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "effective_approx_ratio": [
+        0.4987855729802652,
+        0.5331387939446612,
+        0.5392842479084126,
+        0.5248271007854448,
+        0.4983323290870596,
+        0.4673117838079948
+      ],
+      "score": {
+        "value": 0.5102799714189731,
+        "uncertainty": null
+      }
+    },
+    "runtime_seconds": 976.3369999999998,
+    "platform": {
+      "device": "iqm_emerald",
+      "device_metadata": {
+        "num_qubits": 54,
+        "simulator": false
+      },
+      "provider": "aws"
+    },
+    "params": {
+      "benchmark_name": "Linear Ramp QAOA",
+      "confidence_level": 0.999,
+      "delta_beta": 0.3,
+      "delta_gamma": 0.6,
+      "graph_type": "1D",
+      "num_qubits": 10,
+      "num_random_trials": 25,
+      "qaoa_layers": [
+        3,
+        5,
+        7,
+        10,
+        15,
+        20
+      ],
+      "seed": 123,
+      "shots": 1000,
+      "trials": 10
+    }
+  }
+]
